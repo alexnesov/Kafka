@@ -20,7 +20,7 @@ Delete topic:</br>
 ```kafka-topics.sh --zookeeper 127.0.0.1:2181 --topic first_topic --delete```
 
 Launch consumer:</br>
-```kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first_topic```
+```kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic```
 
 Launch producer:</br>
 ```kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first_topic```
